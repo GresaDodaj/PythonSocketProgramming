@@ -1,10 +1,10 @@
 # PythonSocketProgramming
 
-#.Metodat built-in dhe ato te definuara
+# Metodat built-in dhe ato te definuara
 
-      ##Metodat built-in
+## Metodat built-in
 
-        Ne aplikacionin e zhvilluar do te shihni disa nga funksionet kryesore ne socket API:
+Ne aplikacionin e zhvilluar do te shihni disa nga funksionet kryesore ne socket API:
 accept- eshte perdorur  ne anen e serverit per te pranuar  lidhjet (konektimet) e klienteve
 bind-    eshte perdorur  ne anen e serverit per te specifikuar IP adresen dhe portin e protokolit.
 close- perdoret edhe ne anen e serverit edhe ne ate te klientit per te perfunduar komunikimin 
@@ -15,10 +15,10 @@ send- eshte perdorur ne server dhe ne klient per te derguar te dhena dhe mesazhe
 socket- per te krijuar nje socket.
 gethostname()- kthen emrin e host-it te makines ku ekzekutohet.
 
-##Metodat e definuara 
+## Metodat e definuara 
 
 
-      Ne server gjithashtu jane definuar disa metoda  per qellime te caktuara te cilat kthejne pergjigjie te klienti varesisht nga kerkesa e tij.Validimi i ketyre kerkesave eshte bere ne anen e serverit kurse ne anen e klientit jane specifikuar metodat ekzistuese dhe me shembuj eshte ilustruar menyra e thirrjes se atyre funksioneve nese funksioni thirret ne menyre te gabuar atehere serveri do te ktheje pergjigjie te klienti per gabimin e bere ne thirrjen e metodes.
+Ne server gjithashtu jane definuar disa metoda  per qellime te caktuara te cilat kthejne pergjigjie te klienti varesisht nga kerkesa e tij.Validimi i ketyre kerkesave eshte bere ne anen e serverit kurse ne anen e klientit jane specifikuar metodat ekzistuese dhe me shembuj eshte ilustruar menyra e thirrjes se atyre funksioneve nese funksioni thirret ne menyre te gabuar atehere serveri do te ktheje pergjigjie te klienti per gabimin e bere ne thirrjen e metodes.
 IPADDR()- percakton dhe kthen IP adresen e klientit ne formen dhejtore.
 PORTNR()- percakton dhe kthen portin e klientit.
 ZANORE()- ka parameter nje tekst te derguar nga klienti dhe serveri kthen si pergjigje numrin e zanoreve te perdorura ne ate tekst.
